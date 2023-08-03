@@ -1,17 +1,12 @@
-import { useState } from 'react'
-
+import ResizePhoto from "./component/ResizePhoto"
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-       
-      
-      <p className="text-2xl text-red-200">
-        hello
-      </p>
-    </>
+    <div className="flex items-center w-full h-screen p-3">          
+        <ResizePhoto  />       
+    </div>
   )
 }
 
